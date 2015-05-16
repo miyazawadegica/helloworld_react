@@ -1,0 +1,26 @@
+{
+  "name": "helloworld_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miyazawadegica/helloworld_react.git"
+  },
+  "author": "shingo.miyazawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyazawadegica/helloworld_react/issues"
+  },
+  "homepage": "https://github.com/miyazawadegica/helloworld_react",
+  "devDependencies": {
+    "browserify": "^10.2.0",
+    "gulp": "^3.8.11",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
