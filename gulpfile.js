@@ -12,3 +12,7 @@ gulp.task('browserify', function() {
     .pipe(source('app.js'))
     .pipe(gulp.dest('./dist'));
 });
+
+gulp.task('watch', ['browserify'], function(){
+  gulp.watch('./src/*.jsx', ['browserify']);
+});
