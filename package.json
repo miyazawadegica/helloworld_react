@@ -16,8 +16,15 @@
     "url": "https://github.com/miyazawadegica/helloworld_react/issues"
   },
   "homepage": "https://github.com/miyazawadegica/helloworld_react",
+  "browserify": {
+    "transform": [
+      "debowerify"
+    ]
+  },
   "devDependencies": {
+    "bower": "^1.4.1",
     "browserify": "^10.2.0",
+    "debowerify": "^1.2.1",
     "gulp": "^3.8.11",
     "react": "^0.13.3",
     "reactify": "^1.1.1",

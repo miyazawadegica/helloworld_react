@@ -11,7 +11,7 @@ var HelloWorld = React.createClass({
     return (
       <div>
         <h1>Hello, world!</h1>
-        <Name name="Masao" />
+        <Name name="Masa2odaaad" />
       </div>
     );
   }
